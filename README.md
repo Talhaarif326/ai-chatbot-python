@@ -38,7 +38,7 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-###Configuration
+### Configuration
 Get your API key from Google AI Studio
 
 Edit the .env file and add your API key
@@ -120,7 +120,7 @@ Push to the branch (git push origin feature/AmazingFeature)
 Open a Pull Request
 
 ## 👨‍💻 Developer
-Talha Arif
-GitHub: @Talhaarif326
-Project: AI Chatbot Python
+### Talha Arif
+### GitHub: @Talhaarif326
+### Project: AI Chatbot Python
 
