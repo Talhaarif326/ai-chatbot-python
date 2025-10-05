@@ -36,18 +36,19 @@ pip install -r requirements.txt
 
 # Setup environment configuration
 cp .env.example .env
+````
 
-Configuration
+###Configuration
 Get your API key from Google AI Studio
 
 Edit the .env file and add your API key
 
-Usage
-bash
+###Usage
+````
 python chatbot.py
-Example Interaction:
-
-text
+````
+###Example Interaction:
+````
 You: Explain quantum computing in simple terms
 *************************
 Gemini: Quantum computing uses qubits that can exist in multiple states...
@@ -55,18 +56,19 @@ Gemini: Quantum computing uses qubits that can exist in multiple states...
 You: quit
 Gemini: Goodbye.
 We had 3 Exchanges.
+````
 
 ## 🛠️ Technical Details
 
 ### Project Structure
-```text
+```
 ai-chatbot-python/
 ├── chatbot.py
 ├── requirements.txt
 ├── .gitignore
 ├── .env.example
 └── README.md
-
+````
 ##Dependencies
 google-generativeai - Google's Gemini AI client library
 
