@@ -36,19 +36,19 @@ pip install -r requirements.txt
 
 # Setup environment configuration
 cp .env.example .env
-````
+```
 
 ###Configuration
 Get your API key from Google AI Studio
 
 Edit the .env file and add your API key
 
-###Usage
-````
+### Usage
+```bash
 python chatbot.py
-````
-###Example Interaction:
-````
+```
+### Example Interaction:
+```bash
 You: Explain quantum computing in simple terms
 *************************
 Gemini: Quantum computing uses qubits that can exist in multiple states...
@@ -56,20 +56,20 @@ Gemini: Quantum computing uses qubits that can exist in multiple states...
 You: quit
 Gemini: Goodbye.
 We had 3 Exchanges.
-````
-
-## 🛠️ Technical Details
-
-### Project Structure
 ```
+
+##  🛠️ Technical Details
+
+###  Project Structure
+```text
 ai-chatbot-python/
 ├── chatbot.py
 ├── requirements.txt
 ├── .gitignore
 ├── .env.example
 └── README.md
-````
-##Dependencies
+```
+## Dependencies
 google-generativeai - Google's Gemini AI client library
 
 python-dotenv - Environment variables management
@@ -83,7 +83,7 @@ Clear user feedback during recovery
 
 Graceful exit on permanent failures
 
-##🔧 API Configuration
+## 🔧 API Configuration
 The chatbot uses Google's Gemini 2.5 Flash model for optimal performance:
 
 python
@@ -92,7 +92,7 @@ response = client.models.generate_content(
     model="gemini-2.5-flash",
     contents=input
 )
-##💡 Usage Examples
+## 💡 Usage Examples
 Learning & Education - Ask complex questions
 
 Code Assistance - Get programming help
@@ -103,10 +103,10 @@ Research - Quick information lookup
 
 Casual Conversation - Natural AI interactions
 
-##Debug Mode
+## Debug Mode
 The chatbot provides detailed error messages and retry status for easy debugging.
 
-##🤝** Contributing**
+## 🤝 Contributing
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Fork the project
@@ -119,7 +119,7 @@ Push to the branch (git push origin feature/AmazingFeature)
 
 Open a Pull Request
 
-##👨‍💻 Developer
+## 👨‍💻 Developer
 Talha Arif
 GitHub: @Talhaarif326
 Project: AI Chatbot Python
