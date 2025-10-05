@@ -5,7 +5,6 @@ A sophisticated Python chatbot powered by Google's Gemini AI with robust error h
 ![Python](https://img.shields.io/badge/Python-3.8+-blue.svg)
 ![AI](https://img.shields.io/badge/AI-Gemini_2.5_Flash-orange.svg)
 ![GitHub](https://img.shields.io/badge/Status-Production_Ready-brightgreen.svg)
-![License](https://img.shields.io/badge/License-MIT-yellow.svg)
 
 ## ✨ Features
 
@@ -56,15 +55,17 @@ Gemini: Quantum computing uses qubits that can exist in multiple states...
 You: quit
 Gemini: Goodbye.
 We had 3 Exchanges.
-🛠️ Technical Details
-Project Structure
-text
+
+## 🛠️ Technical Details
+
+### Project Structure
+```text
 ai-chatbot-python/
-├── chatbot.py          # Main application
-├── requirements.txt    # Python dependencies
-├── .gitignore         # Git ignore rules
-├── .env.example       # Environment template
-└── README.md          # Project documentation
+├── chatbot.py
+├── requirements.txt
+├── .gitignore
+├── .env.example
+└── README.md
 
 ##Dependencies
 google-generativeai - Google's Gemini AI client library
@@ -103,7 +104,7 @@ Casual Conversation - Natural AI interactions
 ##Debug Mode
 The chatbot provides detailed error messages and retry status for easy debugging.
 
-##🤝 Contributing
+##🤝** Contributing**
 Contributions are welcome! Please feel free to submit a Pull Request.
 
 Fork the project
