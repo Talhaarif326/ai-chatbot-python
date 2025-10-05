@@ -39,11 +39,11 @@ pip install -r requirements.txt
 cp .env.example .env
 ```
 
-Usage
+##Usage
 ````
 python chatbot.py
 ````
-Example Interaction:
+##Example Interaction:
 ````
 You: Explain quantum computing in simple terms
 *************************
@@ -55,7 +55,8 @@ We had 3 Exchanges.
 ````
 **🛠️ Technical Details**
 **Project Structure**
-text
+
+
 ai-chatbot-python/
 ├── chatbot.py          # Main application
 ├── requirements.txt    # Python dependencies
